@@ -38,19 +38,19 @@
       "suffix": ".js",
       "shortcuts": [ "jbl", "js_bl" ],
       "rename": "decl('{{bemNode}}",
-      "template": [ "stub/script/_bl/script_bl.js" ]
+      "template": "stub/script/_bl/script_bl.js"
     },
     "js": {
       "suffix": ".js",
       "shortcuts": [ "j", "js" ],
       "rename": [ "modules.define('{{bemNode}}", "@module {{bemNode}}", "@exports {{bemNode}}" ],
-      "template": [ "stub/script/script.js" ]
+      "template": "stub/script/script.js"
     },
     "js_dom": {
       "suffix": ".js",
       "shortcuts": [ "jdom", "js_dom" ],
       "rename": [ "@module {{bemNode}}", "@class {{bemNode}}", "@lends {{bemNode}}", "@exports {{bemNode}}" ],
-      "template": [ "stub/script/_dom/script_dom.js" ]
+      "template": "stub/script/_dom/script_dom.js"
     }
   },
   "editor-open-command": "wstorm {{file-path}}:{{line-number}}",
