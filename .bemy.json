@@ -53,7 +53,7 @@
       "template": [ "stub/script/_dom/script_dom.js" ]
     }
   },
-  "editor-open-command": "wstorm {{file-path}}:{{line-number}}",
+  "editor-open-command": "pstorm {{file-path}}:{{line-number}}",
   "bem": {
     "separators": {
       "elem": "__",
