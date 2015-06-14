@@ -4,53 +4,53 @@
       "suffix": ".css",
       "shortcuts": [ "c", "css" ],
       "rename": ".{{bemNode}}",
-      "template": "bemy/stub/style/style.css"
+      "template": "stub/style/style.css"
     },
     "styl": {
       "suffix": ".styl",
       "shortcuts": [ "s", "styl" ],
       "rename": ".{{bemNode}}",
-      "template": "bemy/stub/style/style.styl"
+      "template": "stub/style/style.styl"
     },
     "deps": {
       "suffix": ".deps.js",
       "shortcuts": [ "d", "deps" ],
-      "template": "bemy/stub/depend/depend.deps.js"
+      "template": "stub/depend/depend.deps.js"
     },
     "deps_dom": {
       "suffix": ".deps.js",
       "shortcuts": [ "dd", "ddom", "deps_dom" ],
-      "template": "bemy/stub/depend/_dom/depend_dom.deps.js"
+      "template": "stub/depend/_dom/depend_dom.deps.js"
     },
     "bh": {
       "suffix": ".bh.js",
       "shortcuts": [ "b", "bh" ],
       "rename": "match('{{bemNode}}",
-      "template": "bemy/stub/template/template.bh.js"
+      "template": "stub/template/template.bh.js"
     },
     "priv": {
       "suffix": ".priv.js",
       "shortcuts": [ "p", "priv" ],
       "rename": [ "declare('{{bemNode}}", "block: '{{bemNode}}'", "block:'{{bemNode}}'" ],
-      "template": "bemy/stub/template/template.priv.js"
+      "template": "stub/template/template.priv.js"
     },
     "js_bl": {
       "suffix": ".js",
       "shortcuts": [ "jbl", "js_bl" ],
       "rename": "decl('{{bemNode}}",
-      "template": "bemy/stub/script/_bl/script_bl.js"
+      "template": "stub/script/_bl/script_bl.js"
     },
     "js": {
       "suffix": ".js",
       "shortcuts": [ "j", "js" ],
       "rename": [ "modules.define('{{bemNode}}", "@module {{bemNode}}", "@exports {{bemNode}}" ],
-      "template": "bemy/stub/script/script.js"
+      "template": "stub/script/script.js"
     },
     "js_dom": {
       "suffix": ".js",
       "shortcuts": [ "jdom", "js_dom" ],
       "rename": [ "@module {{bemNode}}", "@class {{bemNode}}", "@lends {{bemNode}}", "@exports {{bemNode}}" ],
-      "template": "bemy/stub/script/_dom/script_dom.js"
+      "template": "stub/script/_dom/script_dom.js"
     }
   },
   "editor-open-command": "pstorm {{file-path}}:{{line-number}}",
